@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:userXml xmlns:ns2="http://www.example.org/message/">
+    <ID>92328231-bb56-46a4-a3d5-1590bcb05645</ID>
+    <UserTag>qq</UserTag>
+    <UserPassword>qqqq</UserPassword>
+    <Name>qq</Name>
+    <AvatarPath>C:\Users\Abderraouf\Documents\ratp-group.png</AvatarPath>
+    <follows>ww</follows>
+    <follows>ratp</follows>
+</ns2:userXml>

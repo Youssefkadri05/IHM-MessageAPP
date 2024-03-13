@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.register;
+package com.ubo.tp.message.ihm.components.register;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -16,7 +16,7 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.IViewObservable;
 
 public class RegisterView extends JPanel implements IViewObservable<IRegisterObserver> {
 

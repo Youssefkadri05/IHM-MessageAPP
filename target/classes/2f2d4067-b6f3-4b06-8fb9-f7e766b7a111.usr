@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:userXml xmlns:ns2="http://www.example.org/message/">
+    <ID>2f2d4067-b6f3-4b06-8fb9-f7e766b7a111</ID>
+    <UserTag>az</UserTag>
+    <UserPassword>azaz</UserPassword>
+    <Name>az</Name>
+    <AvatarPath>C:\Users\Abderraouf\Documents\storeify.png</AvatarPath>
+</ns2:userXml>

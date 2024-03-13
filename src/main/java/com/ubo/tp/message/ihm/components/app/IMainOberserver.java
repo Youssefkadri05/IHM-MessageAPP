@@ -1,8 +1,8 @@
-package main.java.com.ubo.tp.message.ihm.components.app;
+package com.ubo.tp.message.ihm.components.app;
 
 import java.io.File;
 
-import main.java.com.ubo.tp.message.core.database.IDatabaseObserver;
+import com.ubo.tp.message.core.database.IDatabaseObserver;
 
 public interface IMainOberserver extends IDatabaseObserver {
 

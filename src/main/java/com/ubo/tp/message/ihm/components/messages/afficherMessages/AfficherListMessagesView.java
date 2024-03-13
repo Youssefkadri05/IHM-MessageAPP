@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.messages.afficherMessages;
+package com.ubo.tp.message.ihm.components.messages.afficherMessages;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -21,13 +21,13 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
-import main.java.com.ubo.tp.message.ihm.components.app.IMainOberserver;
-import main.java.com.ubo.tp.message.ihm.controllers.ListMessageController;
-import main.java.com.ubo.tp.message.ihm.controllers.MsgController;
-import main.java.com.ubo.tp.message.ihm.session.ISession;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.components.app.IMainOberserver;
+import com.ubo.tp.message.ihm.controllers.ListMessageController;
+import com.ubo.tp.message.ihm.controllers.MsgController;
+import com.ubo.tp.message.ihm.session.ISession;
 
 	
 	

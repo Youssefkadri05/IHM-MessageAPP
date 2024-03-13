@@ -1,9 +1,9 @@
-package main.java.com.ubo.tp.message.ihm.components.userss;
+package com.ubo.tp.message.ihm.components.userss;
 
 
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
-import main.java.com.ubo.tp.message.ihm.components.app.IMainOberserver;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.components.app.IMainOberserver;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

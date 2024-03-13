@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:messageXml xmlns:ns2="http://www.example.org/message/">
+    <ID>fbf5bb54-67f3-4ba7-a349-3ebab289edb4</ID>
+    <EmissionDate>1710248372709</EmissionDate>
+    <Sender>92328231-bb56-46a4-a3d5-1590bcb05645</Sender>
+    <Text>rtrrtrtr</Text>
+</ns2:messageXml>

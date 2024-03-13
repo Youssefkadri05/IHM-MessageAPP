@@ -1,9 +1,9 @@
-package main.java.com.ubo.tp.message.ihm.components.profil;
+package com.ubo.tp.message.ihm.components.profil;
 
 
 
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.ihm.IViewObservable;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

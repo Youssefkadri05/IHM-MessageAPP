@@ -1,11 +1,11 @@
-package main.java.com.ubo.tp.message.ihm.controllers;
+package com.ubo.tp.message.ihm.controllers;
 
-import main.java.com.ubo.tp.message.core.EntityManager;
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.ihm.components.messages.ajouterMessage.IAjouterMessageObserver;
-import main.java.com.ubo.tp.message.ihm.session.Session;
+import com.ubo.tp.message.core.EntityManager;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.ihm.components.messages.ajouterMessage.IAjouterMessageObserver;
+import com.ubo.tp.message.ihm.session.Session;
 
 public class AjouterMessageController extends IController implements IAjouterMessageObserver {
 

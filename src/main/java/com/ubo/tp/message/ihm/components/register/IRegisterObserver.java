@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.register;
+package com.ubo.tp.message.ihm.components.register;
 
 import java.util.Set;
 

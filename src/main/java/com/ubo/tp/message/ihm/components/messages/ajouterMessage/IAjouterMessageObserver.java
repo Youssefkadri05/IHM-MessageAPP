@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.messages.ajouterMessage;
+package com.ubo.tp.message.ihm.components.messages.ajouterMessage;
 
 public interface IAjouterMessageObserver {
 
