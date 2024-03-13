@@ -4,75 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd1ee421-5a7b-4466-8c01-bc59e2bed2ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/MessageAppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/MessageAppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/FilesUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/FilesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/PropertiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/common/PropertiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/EntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/EntityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/IDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/IDatabaseObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/database/IDatabaseObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/IWatchableDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/IWatchableDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/IWatchableDirectoryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/IWatchableDirectoryObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/WatchableDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/core/directory/WatchableDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/converter/XmlbeanDatamodelConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/converter/XmlbeanDatamodelConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/JaxbReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/JaxbReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/JaxbWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/JaxbWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/MessageXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/MessageXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/message/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/UserXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/UserXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/datamodel/jaxb/bean/user/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/IViewObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/IViewObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/MessageApp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/MessageApp1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/MessageAppMainView1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/MessageAppMainView1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/IMainOberserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/IMainOberserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/MessageApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/MessageApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/MessageAppMainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/app/MessageAppMainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/dashMessagerie/IMessageriePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/dashMessagerie/IMessageriePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/dashMessagerie/MessageriePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/dashMessagerie/MessageriePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/login/IConnexionObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/login/IConnexionObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/login/MessageConnexionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/login/MessageConnexionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/AfficherListMessagesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/AfficherListMessagesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/IListMessagesObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/IListMessagesObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/IMsgObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/IMsgObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/afficherMessages/Msg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/ajouterMessage/AjouterMessageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/ajouterMessage/AjouterMessageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/ajouterMessage/IAjouterMessageObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/messages/ajouterMessage/IAjouterMessageObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/profil/IProfilObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/profil/IProfilObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/profil/MessageAppProfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/profil/MessageAppProfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/register/IRegisterObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/register/IRegisterObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/register/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/register/RegisterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userprofile/IMessageProfileObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userprofile/IMessageProfileObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userprofile/MessageAppUserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userprofile/MessageAppUserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userss/IListUserObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userss/IListUserObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userss/ListUserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/components/userss/ListUserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/AjouterMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/AjouterMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ConnexionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ConnexionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/IController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ListMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ListMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ListUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ListUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/MessageProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/MessageProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/MsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ProfilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/ProfilController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/ISession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/ISession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/ISessionObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/ISessionObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ubo/tp/message/ihm/session/Session.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mock/MessageAppMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MessageAppMock.java" afterDir="false" />
-    </list>
+    <list default="true" id="cd1ee421-5a7b-4466-8c01-bc59e2bed2ab" name="Changes" comment="Ajout de Gradle jar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gradle_branch" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,12 +47,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1710338102" />
+                    <option name="branchName" value="gradle_branch" />
+                    <option name="lastUsedInstant" value="1710342837" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="gradle_branch" />
-                    <option name="lastUsedInstant" value="1710337035" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1710338102" />
                   </RecentBranch>
                 </list>
               </option>
@@ -244,11 +176,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710335982940</updated>
-      <workItem from="1710335983999" duration="3310000" />
+      <workItem from="1710335983999" duration="4051000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout de Gradle jar" />
+    <MESSAGE value="FIX problem branchs" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX problem branchs" />
   </component>
 </project>
