@@ -1,0 +1,34 @@
+<project name="MessageApp" default="jar" basedir=".">
+    <!-- Directory locations -->
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="bin"/>
+    <property name="dist.dir" value="dist"/>
+    <property name="jar.name" value="MessageApp.jar"/>
+    <property name="main.class" value="main.java.com.ubo.tp.message.MessageAppLauncher"/>
+
+    <!-- Initialize directory structure -->
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <!-- Compile source code -->
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${build.dir}"/>
+    </target>
+
+    <!-- Create JAR file -->
+    <target name="jar" depends="compile">
+        <jar destfile="${dist.dir}/ant/${jar.name}" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <!-- Clean up build artifacts -->
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+</project>
