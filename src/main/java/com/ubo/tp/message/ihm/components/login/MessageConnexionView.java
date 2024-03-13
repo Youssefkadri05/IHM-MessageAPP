@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.login;
+package com.ubo.tp.message.ihm.components.login;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.IViewObservable;
 
 public class MessageConnexionView extends JPanel implements IViewObservable<IConnexionObserver> {
 

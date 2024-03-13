@@ -1,13 +1,13 @@
-package main.java.com.ubo.tp.message.ihm.components.dashMessagerie;
+package com.ubo.tp.message.ihm.components.dashMessagerie;
 
 
 import javax.swing.*;
 
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
-import main.java.com.ubo.tp.message.ihm.components.login.IConnexionObserver;
-import main.java.com.ubo.tp.message.ihm.components.messages.afficherMessages.AfficherListMessagesView;
-import main.java.com.ubo.tp.message.ihm.components.messages.ajouterMessage.AjouterMessageView;
-import main.java.com.ubo.tp.message.ihm.components.messages.ajouterMessage.IAjouterMessageObserver;
+import com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.components.login.IConnexionObserver;
+import com.ubo.tp.message.ihm.components.messages.afficherMessages.AfficherListMessagesView;
+import com.ubo.tp.message.ihm.components.messages.ajouterMessage.AjouterMessageView;
+import com.ubo.tp.message.ihm.components.messages.ajouterMessage.IAjouterMessageObserver;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;

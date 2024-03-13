@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.app;
+package com.ubo.tp.message.ihm.components.app;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -18,10 +18,10 @@ import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
-import main.java.com.ubo.tp.message.datamodel.User;
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
-import main.java.com.ubo.tp.message.ihm.components.login.MessageConnexionView;
-import main.java.com.ubo.tp.message.ihm.session.Session;
+import com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.components.login.MessageConnexionView;
+import com.ubo.tp.message.ihm.session.Session;
 
 /**
  * Classe de la vue principale de l'application.

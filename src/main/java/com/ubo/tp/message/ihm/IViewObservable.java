@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm;
+package com.ubo.tp.message.ihm;
 
 public interface IViewObservable<T> {
     void addObserver(T observer);

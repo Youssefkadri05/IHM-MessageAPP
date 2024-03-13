@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm;
+package com.ubo.tp.message.ihm;
 
 import java.io.File;
 import java.util.Set;
@@ -6,14 +6,14 @@ import java.util.Set;
 import javax.swing.JFileChooser;
 import javax.swing.UIManager;
 
-import main.java.com.ubo.tp.message.core.EntityManager;
-import main.java.com.ubo.tp.message.core.database.IDatabase;
-import main.java.com.ubo.tp.message.core.database.IDatabaseObserver;
-import main.java.com.ubo.tp.message.core.directory.IWatchableDirectory;
-import main.java.com.ubo.tp.message.core.directory.IWatchableDirectoryObserver;
-import main.java.com.ubo.tp.message.core.directory.WatchableDirectory;
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.datamodel.User;
+import com.ubo.tp.message.core.EntityManager;
+import com.ubo.tp.message.core.database.IDatabase;
+import com.ubo.tp.message.core.database.IDatabaseObserver;
+import com.ubo.tp.message.core.directory.IWatchableDirectory;
+import com.ubo.tp.message.core.directory.IWatchableDirectoryObserver;
+import com.ubo.tp.message.core.directory.WatchableDirectory;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.datamodel.User;
 
 /**
  * Classe principale l'application.

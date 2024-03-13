@@ -1,9 +1,9 @@
-package main.java.com.ubo.tp.message.ihm.components.messages.afficherMessages;
+package com.ubo.tp.message.ihm.components.messages.afficherMessages;
 
 import java.util.List;
 import java.util.Set;
 
-import main.java.com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.datamodel.Message;
 
 public interface IListMessagesObserver {
 

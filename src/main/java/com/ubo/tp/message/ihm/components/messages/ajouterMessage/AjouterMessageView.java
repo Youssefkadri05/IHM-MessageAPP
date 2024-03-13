@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.messages.ajouterMessage;
+package com.ubo.tp.message.ihm.components.messages.ajouterMessage;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -12,7 +12,7 @@ import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.IViewObservable;
 
 public class AjouterMessageView extends JPanel implements IViewObservable<IAjouterMessageObserver> {
 

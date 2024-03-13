@@ -1,4 +1,4 @@
-package main.java.com.ubo.tp.message.ihm.components.messages.afficherMessages;
+package com.ubo.tp.message.ihm.components.messages.afficherMessages;
 
 import java.awt.*;
 import java.text.SimpleDateFormat;
@@ -11,9 +11,9 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import main.java.com.ubo.tp.message.datamodel.Message;
-import main.java.com.ubo.tp.message.ihm.IViewObservable;
-import main.java.com.ubo.tp.message.ihm.components.app.IMainOberserver;
+import com.ubo.tp.message.datamodel.Message;
+import com.ubo.tp.message.ihm.IViewObservable;
+import com.ubo.tp.message.ihm.components.app.IMainOberserver;
 
 public class Msg extends JPanel implements IViewObservable<IMsgObserver> {
 

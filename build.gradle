@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'ergo.industrialisation'
+version = '1.0.0'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Ajoutez vos dépendances ici
+    // Exemple : testImplementation 'junit:junit:4.12'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.ubo.tp.message.MessageAppLauncher'
+        )
+    }
+}
